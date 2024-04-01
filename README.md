@@ -1,6 +1,7 @@
 # splunk-ec2-metadata-scehduler
 ### How to Schedule EC2 metadata collection from AWS Add-on app on a Splunk Heavy Forwarder 
-#### Requirement: Customers poll [AWS metadata](https://docs.splunk.com/Documentation/AddOns/released/AWS/Metadata) to poll various metadata info from AWS services like EC2, RDS, ELS, ELBs etc. This can be scheudled in the AWS Add-on App for poll frequency. Some customers want this to be polled on a given interval using some scheduling solutions, rather than having an Forwarder instance running 24x7. This beneifts to save cost on forwarder instance consumption. The steps outlined he can be deployed to achieve this solution
+#### Requirement: 
+Customers poll [AWS metadata](https://docs.splunk.com/Documentation/AddOns/released/AWS/Metadata) to poll various metadata info from AWS services like EC2, RDS, ELS, ELBs etc. This can be scheudled in the AWS Add-on App for poll frequency. Some customers want this to be polled on a given interval using some scheduling solutions, rather than having an Forwarder instance running 24x7. This beneifts to save cost on forwarder instance consumption. The steps outlined he can be deployed to achieve this solution
 
 #### Step 1: Configure your Add-On App
 - Setup a Splunk Heavy forwarder instance with latest version of [AWS Add-on App](https://splunkbase.splunk.com/app/1876) installed. 
